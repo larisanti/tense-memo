@@ -1,0 +1,6 @@
+.venv/
+archive/
+drafting.py
+notes.txt
+__pycache__/
+*.pyc
