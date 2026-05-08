@@ -1,5 +1,6 @@
 .venv/
 archive/
+.streamlit/
 drafting.py
 notes.txt
 __pycache__/
