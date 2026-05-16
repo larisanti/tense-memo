@@ -7,9 +7,6 @@ A ideia do projeto surgiu de uma necessidade real observada pela desenvolvedora 
 <br>
 
 ---
-
-<br>
-
 ## 📊 Pipeline de Processamento de Dados
 
 A lógica da escolha dos dados se baseia na frequência de uso no dia a dia para que o estudante foque em um conjunto estatisticamente relevante. A base final **`top_100_verbs.csv`** é construída por meio da integração de duas fontes:
@@ -27,9 +24,6 @@ A lógica da escolha dos dados se baseia na frequência de uso no dia a dia para
 <br>
 
 ---
-
-<br>
-
 ## 🏗️ Arquitetura
 
 ### 1. Camada ETL (`data_processing.py`)
@@ -47,9 +41,6 @@ Módulo independente que processa dados brutos e gera a base final para o consum
 <br>
 
 ---
-
-<br>
-
 ## 🎓 Fundamentação Pedagógica
 
 O desenvolvimento do **Tense Memo** é baseado em princípios científicos de aquisição de linguagem, com foco na metodologia de Paul Nation e na hipótese do Filtro Afetivo de Stephen Krashen. 
@@ -63,9 +54,6 @@ Para complementar, Krashen, afirma que o aprendizado é otimizado quando o Filtr
 <br>
 
 ---
-
-<br>
-
 ## 🛠️ Tecnologias
 - Python 3.x
 - Streamlit
@@ -74,9 +62,6 @@ Para complementar, Krashen, afirma que o aprendizado é otimizado quando o Filtr
 <br>
 
 ---
-
-<br>
-
 ## 💻 Execução
 
 ```bash
@@ -86,16 +71,11 @@ python src/data_processing.py # caso queira modificar a lista de verbos
 streamlit run src/app.py
 ```
 
-<br>
-
+---
 ## 📚 Referências
 - **DAVIES, M.** *The Corpus of Contemporary American English (COCA)*. <https://www.english-corpora.org/coca/>
 - **KRASHEN, S. D.** *Principles and Practice in Second Language Acquisition*. Pergamon Press, 1982.
 - **NATION, I. S. P.** *Learning Vocabulary in Another Language*. Cambridge University Press, 2013.
-
-<br>
-
----
 
 <br>
 
