@@ -167,10 +167,15 @@ def next_verb():
 def render_sidebar(df_verbs):
     """Renderiza a barra lateral com o seletor de modos e a legenda explicativa."""
     sets = {
-        "Test to be": (0, 3), "Set 1": (0, 23), "Set 2": (23, 43), 
-        "Set 3": (43, 63), "Set 4": (63, 83), "Set 5": (83, len(df_verbs)),
+        # "Test to be": (0, 3), 
+        "Set 1": (0, 23), 
+        "Set 2": (23, 43), 
+        "Set 3": (43, 63), 
+        "Set 4": (63, 83), 
+        "Set 5": (83, len(df_verbs)),
         "Hard Mode": (0, len(df_verbs))
     }
+    
     st.sidebar.title("⚙️ Options")
     selected_set = st.sidebar.selectbox("Choose your study mode:", list(sets.keys()))
     st.sidebar.markdown(f"<div style='background-color: {COLOR_SECONDARY}; padding: 10px; border-radius: 8px; color: {COLOR_PRIMARY}; text-align: center; margin-bottom: 15px;'><b>Currently studying:</b> {selected_set}</div>", unsafe_allow_html=True)
